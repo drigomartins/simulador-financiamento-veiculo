@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "simulador-financiamento-veiculo",
+    "name": "Simulador de Financiamento de Veículos",
     "slug": "simulador-financiamento-veiculo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.drigo.oliveira94.simuladorfinanciamentoveiculo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "93e4e646-77fb-4c47-bff7-51f547dbd4a3"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6202074218659375~9656629017",
+    "ios_app_id": "ca-app-pub-6202074218659375~9656629017"
   }
 }
